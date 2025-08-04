@@ -1,16 +1,16 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
-	"version": "0.0.0",
+	"id": "omnivox-datadisplay",
+	"name": "Data Display",
+	"shortname": "datadisplay",
+	"description": "Dynamic display of companion data",
+	"version": "0.1.0-alpha.1",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/alex-Arc/companion-module-omnivox-datadisplay.git",
+	"bugs": "https://github.com/alex-Arc/companion-module-omnivox-datadisplay/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "Alex",
+			"email": "ac@omnivox.dk"
 		}
 	],
 	"runtime": {
@@ -20,7 +20,7 @@
 		"entrypoint": "../dist/main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
+	"manufacturer": "Omnivox",
+	"products": ["datadisplay"],
 	"keywords": []
 }
